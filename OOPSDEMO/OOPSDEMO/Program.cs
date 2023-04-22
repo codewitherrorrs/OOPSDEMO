@@ -6,7 +6,7 @@
         {
             Classname classname = new Classname();
             classname.method1();
-            //classname.method2("Parameter Method");
+            classname.method2("Parameter Method");
             Console.ReadKey();
         }
     }
