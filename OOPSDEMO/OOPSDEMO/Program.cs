@@ -1,2 +1,13 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿namespace OOPSDEMO
+{
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+            Classname classname = new Classname();
+            classname.method1();
+            //classname.method2("Parameter Method");
+            Console.ReadKey();
+        }
+    }
+}
