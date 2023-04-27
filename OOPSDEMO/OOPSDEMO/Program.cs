@@ -1,14 +1,11 @@
-﻿using System.Security.Cryptography.X509Certificates;
-
-namespace OOPSDEMO
+﻿namespace OOPSDEMO
 {
-    public class Program : Reference
+    public class Program : Typecasting
     {
         public static void Main(string[] args)
         {
             Program obj = new Program();
-            int value = 10;
-            obj.MethodReference(ref value);  
+            obj.Method();  
         }
     }
 }
