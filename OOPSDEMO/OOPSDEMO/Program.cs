@@ -2,19 +2,13 @@
 
 namespace OOPSDEMO
 {
-    public class Program : Abstract
+    public class Program : MethodOverloading
     {
         public static void Main(string[] args)
         {
            Program obj = new Program();
-            obj.AbstractMethod();
-        }
-
-        //This is Abstract Method.
-        //Override : override keyword will override the base class method to the derived class.
-        public override void AbstractMethod()
-        {
-            Console.WriteLine("Hii i am abstract");
+            obj.Method();
+            obj.Method(5);
         }
     }
 }
