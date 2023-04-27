@@ -1,18 +1,20 @@
-﻿namespace OOPSDEMO
+﻿using System.Security.Cryptography.X509Certificates;
+
+namespace OOPSDEMO
 {
-    public class Program
+    public class Program : Abstract
     {
         public static void Main(string[] args)
         {
-            /*  Classname classname = new Classname();
-              classname.method1();
-              classname.method2("Parameter Method"); 
-              Constructor construct = new Constructor();
-              Constructor constructor = new Constructor("Hii I am Parameterized Constructor");
-            */
-            //Project obj = Project.Sagar;
-            Console.WriteLine(Project.Surya);
-            Console.ReadKey();
+           Program obj = new Program();
+            obj.AbstractMethod();
+        }
+
+        //This is Abstract Method.
+        //Override : override keyword will override the base class method to the derived class.
+        public override void AbstractMethod()
+        {
+            Console.WriteLine("Hii i am abstract");
         }
     }
 }
