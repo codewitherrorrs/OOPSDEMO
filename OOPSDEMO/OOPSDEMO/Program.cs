@@ -2,13 +2,13 @@
 
 namespace OOPSDEMO
 {
-    public class Program : MethodOverloading
+    public class Program : Reference
     {
         public static void Main(string[] args)
         {
-           Program obj = new Program();
-            obj.Method();
-            obj.Method(5);
+            Program obj = new Program();
+            int value = 10;
+            obj.MethodReference(ref value);  
         }
     }
 }
