@@ -1,11 +1,12 @@
 ﻿namespace OOPSDEMO
 {
-    public class Program : VariableReference
+    public class Program : Encapsulation
     {
         public static void Main(string[] args)
         {
             Program obj = new Program();
-            obj.Method();  
+            Console.WriteLine(obj.Name = "Sagar");
+            Console.WriteLine(obj.Roll = 456);
         }
     }
 }
