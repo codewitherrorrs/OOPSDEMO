@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OOPSDEMO
 {
-    public class TypeReference
+    public class VariableReference
     {
         public void Method()
         {

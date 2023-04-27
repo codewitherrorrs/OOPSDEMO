@@ -1,6 +1,6 @@
 ﻿namespace OOPSDEMO
 {
-    public class Program : Typecasting
+    public class Program : VariableReference
     {
         public static void Main(string[] args)
         {
